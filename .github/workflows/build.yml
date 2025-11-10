@@ -9,6 +9,6 @@ permissions:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@refs/heads/main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
       config-path: config
